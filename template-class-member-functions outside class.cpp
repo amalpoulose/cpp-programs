@@ -23,7 +23,7 @@ public:
   cout<<"No : "<<a<<endl;
  }
  template<class type>
- test<type> test<type>::operator+(test<type>  &o)
+ test<type> test<type>::operator+(test<type>  &o)//overloading + operator
  {
    test temp;
    temp.a=this->a+o.a;
