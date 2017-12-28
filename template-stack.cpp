@@ -4,7 +4,7 @@ using namespace std;
 template<class type>
 class stack
 {
-type a[5];
+type a[5];   
 int count;
 public:
 stack()
