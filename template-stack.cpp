@@ -40,12 +40,6 @@ void stack<type>::pop()
    count--;
  }
 
- 
- 
-
-
-
-
 main()
 {
 stack <int>o;
